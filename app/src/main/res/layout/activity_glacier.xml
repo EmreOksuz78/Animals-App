@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".glacier.Glacier">
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/glacier"
+        android:scaleType="fitXY"
+        />
+
+    <ImageView
+        android:id="@+id/imageView35"
+        android:layout_width="153dp"
+        android:layout_height="153dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="240dp"
+        android:layout_marginBottom="355dp"
+        android:onClick="bear"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/polarbear" />
+
+    <ImageView
+        android:id="@+id/imageView36"
+        android:layout_width="153dp"
+        android:layout_height="153dp"
+        android:layout_marginStart="240dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="355dp"
+        android:onClick="penguin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/penguin" />
+
+    <ImageView
+        android:id="@+id/imageView37"
+        android:layout_width="153dp"
+        android:layout_height="153dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="240dp"
+        android:layout_marginBottom="130dp"
+        android:onClick="reindeer"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/reindeer" />
+
+    <ImageView
+        android:id="@+id/imageView38"
+        android:layout_width="153dp"
+        android:layout_height="153dp"
+        android:layout_marginStart="240dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="130dp"
+        android:onClick="seal"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView13"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/seal" />
+</androidx.constraintlayout.widget.ConstraintLayout>

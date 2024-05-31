@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".savannahh.Savannah">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/savannah"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:scaleType="fitXY"
+        />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="153dp"
+        android:layout_height="153dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="240dp"
+        android:layout_marginBottom="355dp"
+        android:onClick="lion"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/aslan" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="153dp"
+        android:layout_height="153dp"
+        android:layout_marginStart="240dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="355dp"
+        android:onClick="leopard"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/leopar" />
+
+    <ImageView
+        android:id="@+id/imageView40"
+        android:layout_width="153dp"
+        android:layout_height="153dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="240dp"
+        android:layout_marginBottom="130dp"
+        android:onClick="elephant"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/fil" />
+
+    <ImageView
+        android:id="@+id/imageView44"
+        android:layout_width="153dp"
+        android:layout_height="153dp"
+        android:layout_marginStart="240dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="130dp"
+        android:onClick="zebra"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/zebraa" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

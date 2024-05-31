@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AnimalsApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".DetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".savannah.Zebra"
+            android:exported="false" />
+        <activity
+            android:name=".savannah.Savannah"
+            android:exported="false" />
+        <activity
+            android:name=".savannah.Lion"
+            android:exported="false" />
+        <activity
+            android:name=".savannah.Leopard"
+            android:exported="false" />
+        <activity
+            android:name=".savannah.Elephant"
+            android:exported="false" />
+        <activity
+            android:name=".ocean.Whale"
+            android:exported="false" />
+        <activity
+            android:name=".ocean.Shark"
+            android:exported="false" />
+        <activity
+            android:name=".ocean.Octopus"
+            android:exported="false" />
+        <activity
+            android:name=".ocean.Ocean"
+            android:exported="false" />
+        <activity
+            android:name=".ocean.Lobster"
+            android:exported="false" />
+        <activity
+            android:name=".meadow.Sheep"
+            android:exported="false" />
+        <activity
+            android:name=".meadow.Rabbit"
+            android:exported="false" />
+        <activity
+            android:name=".meadow.Meadow"
+            android:exported="false" />
+        <activity
+            android:name=".meadow.Horse"
+            android:exported="false" />
+        <activity
+            android:name=".meadow.Cow"
+            android:exported="false" />
+        <activity
+            android:name=".glacier.Seal"
+            android:exported="false" />
+        <activity
+            android:name=".glacier.Reindeer"
+            android:exported="false" />
+        <activity
+            android:name=".glacier.PolarBear"
+            android:exported="false" />
+        <activity
+            android:name=".glacier.Penguin"
+            android:exported="false" />
+        <activity
+            android:name=".glacier.Glacier"
+            android:exported="false" />
+        <activity
+            android:name=".forest.Turtle"
+            android:exported="false" />
+        <activity
+            android:name=".forest.Snake"
+            android:exported="false" />
+        <activity
+            android:name=".forest.Parrot"
+            android:exported="false" />
+        <activity
+            android:name=".forest.Monkey"
+            android:exported="false" />
+        <activity
+            android:name=".forest.Forest"
+            android:exported="false" />
+        <activity
+            android:name=".desert.Scorpion"
+            android:exported="false" />
+        <activity
+            android:name=".desert.Iguana"
+            android:exported="false" />
+        <activity
+            android:name=".desert.DesertFox"
+            android:exported="false" />
+        <activity
+            android:name=".desert.Desert"
+            android:exported="false" />
+        <activity
+            android:name=".desert.Camel"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
